@@ -8,11 +8,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace PfsenseVoucherMgr
 {
     public partial class frmSettings : Form
     {
+        private CultureInfo SelectedCulture;
+        private int CultureIndex;
+
         public frmSettings()
         {
             InitializeComponent();
@@ -24,6 +28,29 @@ namespace PfsenseVoucherMgr
             tbCsvDelimiter.Text = Properties.Settings.Default.charDelimiter;
 
             tbDbConnectionString.Text = Properties.Settings.Default.strConnectionString;
+
+            // uses the SupportedCultures array
+            UICulture Lng = new UICulture();
+            List<String> liste = Lng.SupportedCulture;
+
+            String CultName = Properties.Settings.Default.Culture; // read from properties
+            CultureInfo CultInfo = new CultureInfo(CultName);
+            SelectedCulture = CultInfo;
+
+            foreach (string IetfTag in liste)
+            {
+                CultureInfo Cult = new CultureInfo(IetfTag);
+
+                // Note: The property listBoxCultures.DisplayName is set to "NativeName" in order to
+                //       show language name in its own language.
+                listBoxCultures.Items.Add(Cult);
+            }
+
+            listBoxCultures.SelectedItem = SelectedCulture;
+
+            CultureIndex = listBoxCultures.SelectedIndex;
+
+
         }
 
         private void btnOk_Click(object sender, EventArgs e)
@@ -31,6 +58,17 @@ namespace PfsenseVoucherMgr
             Properties.Settings.Default.charDelimiter = tbCsvDelimiter.Text ;
 
             Properties.Settings.Default.strConnectionString = tbDbConnectionString.Text;
+
+            if (listBoxCultures.SelectedItem != null)
+            {
+                if (CultureIndex != listBoxCultures.SelectedIndex)
+                {
+                    SelectedCulture = (CultureInfo)listBoxCultures.SelectedItem;
+                    Properties.Settings.Default.Culture = SelectedCulture.Name;
+
+                    MessageBox.Show(this, Properties.Resources.RES_ID_CultureChange, "Pfsense Voucher Manager", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
 
             Properties.Settings.Default.Save();
 
@@ -54,6 +92,11 @@ namespace PfsenseVoucherMgr
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void frmSettings_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

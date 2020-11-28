@@ -37,6 +37,8 @@ namespace PfsenseVoucherMgr
             this.tbDbConnectionString = new System.Windows.Forms.TextBox();
             this.tbCsvDelimiter = new System.Windows.Forms.TextBox();
             this.btnCheckDbConnction = new System.Windows.Forms.Button();
+            this.labelCultures = new System.Windows.Forms.Label();
+            this.listBoxCultures = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label2
@@ -59,7 +61,7 @@ namespace PfsenseVoucherMgr
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(223, 216);
+            this.btnCancel.Location = new System.Drawing.Point(223, 292);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 10;
@@ -69,7 +71,7 @@ namespace PfsenseVoucherMgr
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(38, 216);
+            this.btnOk.Location = new System.Drawing.Point(38, 292);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 23);
             this.btnOk.TabIndex = 9;
@@ -104,11 +106,34 @@ namespace PfsenseVoucherMgr
             this.btnCheckDbConnction.UseVisualStyleBackColor = true;
             this.btnCheckDbConnction.Click += new System.EventHandler(this.btnCheckDbConnction_Click);
             // 
+            // labelCultures
+            // 
+            this.labelCultures.AutoSize = true;
+            this.labelCultures.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.labelCultures.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labelCultures.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.labelCultures.Location = new System.Drawing.Point(35, 160);
+            this.labelCultures.Name = "labelCultures";
+            this.labelCultures.Size = new System.Drawing.Size(66, 15);
+            this.labelCultures.TabIndex = 25;
+            this.labelCultures.Text = "Language:";
+            // 
+            // listBoxCultures
+            // 
+            this.listBoxCultures.DisplayMember = "NativeName";
+            this.listBoxCultures.FormattingEnabled = true;
+            this.listBoxCultures.Location = new System.Drawing.Point(38, 178);
+            this.listBoxCultures.Name = "listBoxCultures";
+            this.listBoxCultures.Size = new System.Drawing.Size(260, 95);
+            this.listBoxCultures.TabIndex = 26;
+            // 
             // frmSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(363, 318);
+            this.Controls.Add(this.listBoxCultures);
+            this.Controls.Add(this.labelCultures);
             this.Controls.Add(this.btnCheckDbConnction);
             this.Controls.Add(this.tbCsvDelimiter);
             this.Controls.Add(this.label2);
@@ -119,6 +144,7 @@ namespace PfsenseVoucherMgr
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmSettings";
             this.Text = "Settings";
+            this.Load += new System.EventHandler(this.frmSettings_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -133,5 +159,7 @@ namespace PfsenseVoucherMgr
         private System.Windows.Forms.TextBox tbDbConnectionString;
         private System.Windows.Forms.TextBox tbCsvDelimiter;
         private System.Windows.Forms.Button btnCheckDbConnction;
+        private System.Windows.Forms.Label labelCultures;
+        private System.Windows.Forms.ListBox listBoxCultures;
     }
 }

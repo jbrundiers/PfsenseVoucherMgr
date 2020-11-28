@@ -17,6 +17,11 @@ namespace PfsenseVoucherMgr
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            //load language settings
+            UICulture Lng = new UICulture();
+            Lng.LoadAndActivate();
+
             Application.Run(new frmMain());
         }
     }

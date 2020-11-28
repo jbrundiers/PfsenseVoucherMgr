@@ -22,7 +22,7 @@ namespace PfsenseVoucherMgr.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -51,7 +51,7 @@ namespace PfsenseVoucherMgr.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -77,6 +77,15 @@ namespace PfsenseVoucherMgr.Properties {
             get {
                 object obj = ResourceManager.GetObject("mynetwork_places_22589", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The language change will take full effect the next time you start the program..
+        /// </summary>
+        internal static string RES_ID_CultureChange {
+            get {
+                return ResourceManager.GetString("RES_ID_CultureChange", resourceCulture);
             }
         }
     }
