@@ -6,7 +6,7 @@
       <Value Profile="(Default)">;</Value>
     </Setting>
     <Setting Name="strConnectionString" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Data Source=egeli11db04\ANF;Initial Catalog=GuestVoucher;Integrated Security=True</Value>
+      <Value Profile="(Default)">Data Source=computername\sqlexpress;Initial Catalog=GuestVoucher;Integrated Security=True</Value>
     </Setting>
   </Settings>
 </SettingsFile>
