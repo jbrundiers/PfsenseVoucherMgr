@@ -1,0 +1,910 @@
+<?xml version="1.0" standalone="yes"?>
+<ControlsScanResultsCache xmlns="http://tempuri.org/ControlsScanResults.xsd">
+  <ControlsScanResults>
+    <ControlsScanID>1</ControlsScanID>
+    <Component>frmAbout.cs</Component>
+    <FullName>frmAbout.cs</FullName>
+    <ShortName>frmAbout.cs</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText />
+    <SortKey>frmAbout.cs</SortKey>
+    <NodeType>0</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>0</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName />
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>2</ControlsScanID>
+    <Component>frmAbout.cs</Component>
+    <FullName>frmAbout.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>frmAbout</OriginalText>
+    <SortKey>AAfrmAbout.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>$this.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>3</ControlsScanID>
+    <Component>frmAbout.cs</Component>
+    <FullName>buttonOk.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Ok</OriginalText>
+    <SortKey>BAbuttonOk.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>buttonOk.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>4</ControlsScanID>
+    <Component>frmAbout.cs</Component>
+    <FullName>labelCopyright.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>labelCopyright</OriginalText>
+    <SortKey>BAlabelCopyright.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>labelCopyright.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>5</ControlsScanID>
+    <Component>frmAbout.cs</Component>
+    <FullName>labelProductName.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>labelProductName</OriginalText>
+    <SortKey>BAlabelProductName.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>labelProductName.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>6</ControlsScanID>
+    <Component>frmAbout.cs</Component>
+    <FullName>labelVersion.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>labelVersion</OriginalText>
+    <SortKey>BAlabelVersion.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>labelVersion.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>7</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>frmImport.cs</FullName>
+    <ShortName>frmImport.cs</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText />
+    <SortKey>frmImport.cs</SortKey>
+    <NodeType>0</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>0</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName />
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>8</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>frmImport.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Import Vouchers</OriginalText>
+    <SortKey>AAfrmImport.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>$this.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>9</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>btnExit.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Exit</OriginalText>
+    <SortKey>BAbtnExit.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>btnExit.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>10</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>btnImport.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Start import</OriginalText>
+    <SortKey>BAbtnImport.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>btnImport.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>11</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>btnSelectFile.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Select file</OriginalText>
+    <SortKey>BAbtnSelectFile.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>btnSelectFile.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>12</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>label1.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Roll number:</OriginalText>
+    <SortKey>BAlabel1.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>label1.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>13</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>label2.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>CSV file:</OriginalText>
+    <SortKey>BAlabel2.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>label2.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>14</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>label3.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>User ID:</OriginalText>
+    <SortKey>BAlabel3.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>label3.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>15</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>tbImportFilePath.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>C:\</OriginalText>
+    <SortKey>BAtbImportFilePath.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>tbImportFilePath.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>16</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>tbRollNumber.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>1</OriginalText>
+    <SortKey>BAtbRollNumber.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>tbRollNumber.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>17</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>tbUserId.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>1</OriginalText>
+    <SortKey>BAtbUserId.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>tbUserId.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>18</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>tbImportFilePath.Lines[0]</FullName>
+    <ShortName>Lines</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>C:\</OriginalText>
+    <SortKey>BLines(0000)</SortKey>
+    <NodeType>8965</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>0</ArrayIndexOrCount>
+    <CompilerName>tbImportFilePath.Lines[0]</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>19</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>tbRollNumber.Lines[0]</FullName>
+    <ShortName>Lines</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>1</OriginalText>
+    <SortKey>BLines(0000)</SortKey>
+    <NodeType>8965</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>0</ArrayIndexOrCount>
+    <CompilerName>tbRollNumber.Lines[0]</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>20</ControlsScanID>
+    <Component>frmImport.cs</Component>
+    <FullName>tbUserId.Lines[0]</FullName>
+    <ShortName>Lines</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>1</OriginalText>
+    <SortKey>BLines(0000)</SortKey>
+    <NodeType>8965</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>0</ArrayIndexOrCount>
+    <CompilerName>tbUserId.Lines[0]</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>21</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>frmMain.cs</FullName>
+    <ShortName>frmMain.cs</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText />
+    <SortKey>frmMain.cs</SortKey>
+    <NodeType>0</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>0</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName />
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>22</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>frmMain.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Pfsense Voucher Manager</OriginalText>
+    <SortKey>AAfrmMain.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>$this.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>23</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>aboutToolStripMenuItem.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.ToolStripMenuItem</ProgID>
+    <OriginalText>About</OriginalText>
+    <SortKey>BAaboutToolStripMenuItem.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>aboutToolStripMenuItem.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>24</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>btnExit.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Exit</OriginalText>
+    <SortKey>BAbtnExit.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>btnExit.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>25</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>btnRequestVoucher.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Request a voucher</OriginalText>
+    <SortKey>BAbtnRequestVoucher.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>btnRequestVoucher.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>26</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>exitToolStripMenuItem.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.ToolStripMenuItem</ProgID>
+    <OriginalText>Exit</OriginalText>
+    <SortKey>BAexitToolStripMenuItem.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>exitToolStripMenuItem.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>27</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>fileToolStripMenuItem.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.ToolStripMenuItem</ProgID>
+    <OriginalText>File</OriginalText>
+    <SortKey>BAfileToolStripMenuItem.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>fileToolStripMenuItem.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>28</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>helpToolStripMenuItem.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.ToolStripMenuItem</ProgID>
+    <OriginalText>Help</OriginalText>
+    <SortKey>BAhelpToolStripMenuItem.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>helpToolStripMenuItem.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>29</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>importVoucherCodesToolStripMenuItem.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.ToolStripMenuItem</ProgID>
+    <OriginalText>Import voucher codes ...</OriginalText>
+    <SortKey>BAimportVoucherCodesToolStripMenuItem.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>importVoucherCodesToolStripMenuItem.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>30</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>label1.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Create voucher for: </OriginalText>
+    <SortKey>BAlabel1.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>label1.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>31</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>lblRequestHint.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>The voucher request will be logged with your user name!</OriginalText>
+    <SortKey>BAlblRequestHint.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>lblRequestHint.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>32</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>lblUnusedVouchers.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Unused Vouchers:</OriginalText>
+    <SortKey>BAlblUnusedVouchers.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>lblUnusedVouchers.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>33</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>menuStrip1.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>menuStrip1</OriginalText>
+    <SortKey>BAmenuStrip1.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>menuStrip1.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>34</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>optionsToolStripMenuItem.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.ToolStripMenuItem</ProgID>
+    <OriginalText>Options</OriginalText>
+    <SortKey>BAoptionsToolStripMenuItem.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>optionsToolStripMenuItem.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>35</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>settingsToolStripMenuItem.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.ToolStripMenuItem</ProgID>
+    <OriginalText>Settings ...</OriginalText>
+    <SortKey>BAsettingsToolStripMenuItem.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>settingsToolStripMenuItem.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>36</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>statusStrip1.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>statusStrip1</OriginalText>
+    <SortKey>BAstatusStrip1.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>statusStrip1.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>37</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>statusStrip2.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>statusStrip2</OriginalText>
+    <SortKey>BAstatusStrip2.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>statusStrip2.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>38</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>StripStatLabelDbStatus.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.ToolStripStatusLabel</ProgID>
+    <OriginalText>Database Status</OriginalText>
+    <SortKey>BAStripStatLabelDbStatus.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>StripStatLabelDbStatus.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>39</ControlsScanID>
+    <Component>frmMain.cs</Component>
+    <FullName>StripStatLabelUser.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.ToolStripStatusLabel</ProgID>
+    <OriginalText>Current user: ??</OriginalText>
+    <SortKey>BAStripStatLabelUser.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>StripStatLabelUser.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>40</ControlsScanID>
+    <Component>frmSettings.cs</Component>
+    <FullName>frmSettings.cs</FullName>
+    <ShortName>frmSettings.cs</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText />
+    <SortKey>frmSettings.cs</SortKey>
+    <NodeType>0</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>0</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName />
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>41</ControlsScanID>
+    <Component>frmSettings.cs</Component>
+    <FullName>frmSettings.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Settings</OriginalText>
+    <SortKey>AAfrmSettings.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>$this.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>42</ControlsScanID>
+    <Component>frmSettings.cs</Component>
+    <FullName>btnCancel.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Cancel</OriginalText>
+    <SortKey>BAbtnCancel.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>btnCancel.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>43</ControlsScanID>
+    <Component>frmSettings.cs</Component>
+    <FullName>btnCheckDbConnction.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Check Database connection</OriginalText>
+    <SortKey>BAbtnCheckDbConnction.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>btnCheckDbConnction.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>44</ControlsScanID>
+    <Component>frmSettings.cs</Component>
+    <FullName>btnOk.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Ok</OriginalText>
+    <SortKey>BAbtnOk.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>btnOk.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>45</ControlsScanID>
+    <Component>frmSettings.cs</Component>
+    <FullName>label1.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>CSV Delimiter:</OriginalText>
+    <SortKey>BAlabel1.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>label1.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>46</ControlsScanID>
+    <Component>frmSettings.cs</Component>
+    <FullName>label2.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Database connect string:</OriginalText>
+    <SortKey>BAlabel2.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>label2.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>47</ControlsScanID>
+    <Component>frmSettings.cs</Component>
+    <FullName>labelCultures.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Language:</OriginalText>
+    <SortKey>BAlabelCultures.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>labelCultures.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>48</ControlsScanID>
+    <Component>frmSettings.cs</Component>
+    <FullName>tbCsvDelimiter.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>;</OriginalText>
+    <SortKey>BAtbCsvDelimiter.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>tbCsvDelimiter.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>49</ControlsScanID>
+    <Component>frmSettings.cs</Component>
+    <FullName>tbCsvDelimiter.Lines[0]</FullName>
+    <ShortName>Lines</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>;</OriginalText>
+    <SortKey>BLines(0000)</SortKey>
+    <NodeType>8965</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>0</ArrayIndexOrCount>
+    <CompilerName>tbCsvDelimiter.Lines[0]</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>50</ControlsScanID>
+    <Component>frmShowVoucher.cs</Component>
+    <FullName>frmShowVoucher.cs</FullName>
+    <ShortName>frmShowVoucher.cs</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText />
+    <SortKey>frmShowVoucher.cs</SortKey>
+    <NodeType>0</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>0</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName />
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>51</ControlsScanID>
+    <Component>frmShowVoucher.cs</Component>
+    <FullName>frmShowVoucher.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Show Voucher</OriginalText>
+    <SortKey>AAfrmShowVoucher.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>$this.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>52</ControlsScanID>
+    <Component>frmShowVoucher.cs</Component>
+    <FullName>btnExit.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Exit</OriginalText>
+    <SortKey>BAbtnExit.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>btnExit.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>53</ControlsScanID>
+    <Component>frmShowVoucher.cs</Component>
+    <FullName>btnPrint.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Print</OriginalText>
+    <SortKey>BAbtnPrint.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>btnPrint.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>54</ControlsScanID>
+    <Component>frmShowVoucher.cs</Component>
+    <FullName>btnPrintPreview.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Print Preview</OriginalText>
+    <SortKey>BAbtnPrintPreview.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>btnPrintPreview.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>55</ControlsScanID>
+    <Component>frmShowVoucher.cs</Component>
+    <FullName>lblCode.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Voucher Code</OriginalText>
+    <SortKey>BAlblCode.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>lblCode.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>56</ControlsScanID>
+    <Component>frmShowVoucher.cs</Component>
+    <FullName>lblFromUser.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Generated by:</OriginalText>
+    <SortKey>BAlblFromUser.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>lblFromUser.Text</CompilerName>
+  </ControlsScanResults>
+  <ControlsScanResults>
+    <ControlsScanID>57</ControlsScanID>
+    <Component>frmShowVoucher.cs</Component>
+    <FullName>lblToUser.Text</FullName>
+    <ShortName>Text</ShortName>
+    <XPath />
+    <ProgID>System.Windows.Forms.Form</ProgID>
+    <OriginalText>Voucher code for :</OriginalText>
+    <SortKey>BAlblToUser.Text</SortKey>
+    <NodeType>8963</NodeType>
+    <Expanded>false</Expanded>
+    <ItemLevel>1</ItemLevel>
+    <ArrayIndexOrCount>-1</ArrayIndexOrCount>
+    <CompilerName>lblToUser.Text</CompilerName>
+  </ControlsScanResults>
+  <SelectedComponents>
+    <Component>AssemblyInfo.cs</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+  <SelectedComponents>
+    <Component>DbFunctions.cs</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+  <SelectedComponents>
+    <Component>frmAbout.cs</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+  <SelectedComponents>
+    <Component>frmImport.cs</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+  <SelectedComponents>
+    <Component>frmMain.cs</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+  <SelectedComponents>
+    <Component>frmSettings.cs</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+  <SelectedComponents>
+    <Component>frmShowVoucher.cs</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+  <SelectedComponents>
+    <Component>Program.cs</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+  <SelectedComponents>
+    <Component>ReadWriteCsv.cs</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+  <SelectedComponents>
+    <Component>Resources.Designer.cs</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+  <SelectedComponents>
+    <Component>Resources.resx</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+  <SelectedComponents>
+    <Component>Settings.Designer.cs</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+  <SelectedComponents>
+    <Component>UICulture.cs</Component>
+    <IsSelected>true</IsSelected>
+  </SelectedComponents>
+</ControlsScanResultsCache>

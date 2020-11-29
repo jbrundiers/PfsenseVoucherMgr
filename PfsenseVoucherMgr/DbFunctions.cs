@@ -1,4 +1,26 @@
-﻿using System;
+﻿//------------------------------------------------------------------------------------------------
+//
+//	PfsenseVoucherMgr
+//
+//	Copyright (C) 2020 Soft-Toolware. All Rights Reserved
+//
+//	The software is a free software.
+//	It is distributed under the Code Project Open License (CPOL 1.02)
+//	agreement. The full text of the CPOL is given in:
+//	https://www.codeproject.com/info/cpol10.aspx
+//	
+//	The main points of CPOL 1.02 subject to the terms of the License are:
+//
+//	Source Code and Executable Files can be used in commercial applications;
+//	Source Code and Executable Files can be redistributed; and
+//	Source Code can be modified to create derivative works.
+//	No claim of suitability, guarantee, or any warranty whatsoever is
+//	provided. The software is provided "as-is".
+//	
+//
+//------------------------------------------------------------------------------------------------
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -74,8 +96,6 @@ namespace PfsenseVoucherMgr
             try
             {
                 iAffectedRows = (int) command.ExecuteScalar();
-                //gSqlAdapter.InsertCommand = command;
-                //iAffectedRows = gSqlAdapter.InsertCommand.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
@@ -90,7 +110,7 @@ namespace PfsenseVoucherMgr
                 return (false);
         }
 
-        public int GetUserID(String strUsername)
+        public int GetUserId(String strUsername)
         {
             string sql;
             SqlCommand command;
@@ -103,8 +123,6 @@ namespace PfsenseVoucherMgr
             try
             {
                 iuID = (int)command.ExecuteScalar();
-                //gSqlAdapter.InsertCommand = command;
-                //iAffectedRows = gSqlAdapter.InsertCommand.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
@@ -175,36 +193,7 @@ namespace PfsenseVoucherMgr
         }
 
 
-        public int GetUserId(string sUser)
-        {
-            string sql;
-            SqlCommand command;
-            SqlDataReader datareader = null;
-            int iVoucherId = 0;
-
-            // sql = "SELECT [uId],  [uName] FROM Users Where uName = 'sUser' ";
-            sql = "SELECT [uId],  [uName] FROM Users Where uName = '" + sUser + "'";
-            command = new SqlCommand(sql, gSqlConn);
-
-            try
-            {
-                datareader = command.ExecuteReader();
-
-                datareader.Read();
-
-                iVoucherId = (int)datareader.GetSqlInt32(0);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Database get ID of user", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-
-            datareader.Close();
-            command.Dispose();
-
-            return iVoucherId;
-        }
-
+        
         /// Creates a new user in "Users" table
         /// </summary>
         /// <param name="strUsername"></param>

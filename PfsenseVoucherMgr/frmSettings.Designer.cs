@@ -43,95 +43,63 @@ namespace PfsenseVoucherMgr
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 31);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 13);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Database connect string:";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(35, 103);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "CSV Delimiter:";
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(223, 292);
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 10;
-            this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(38, 292);
+            resources.ApplyResources(this.btnOk, "btnOk");
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(75, 23);
-            this.btnOk.TabIndex = 9;
-            this.btnOk.Text = "Ok";
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // tbDbConnectionString
             // 
             this.tbDbConnectionString.AcceptsReturn = true;
-            this.tbDbConnectionString.Location = new System.Drawing.Point(38, 47);
+            resources.ApplyResources(this.tbDbConnectionString, "tbDbConnectionString");
             this.tbDbConnectionString.Name = "tbDbConnectionString";
-            this.tbDbConnectionString.Size = new System.Drawing.Size(260, 20);
-            this.tbDbConnectionString.TabIndex = 7;
             // 
             // tbCsvDelimiter
             // 
-            this.tbCsvDelimiter.Location = new System.Drawing.Point(38, 119);
+            resources.ApplyResources(this.tbCsvDelimiter, "tbCsvDelimiter");
             this.tbCsvDelimiter.Name = "tbCsvDelimiter";
-            this.tbCsvDelimiter.Size = new System.Drawing.Size(100, 20);
-            this.tbCsvDelimiter.TabIndex = 15;
-            this.tbCsvDelimiter.Text = ";";
-            this.tbCsvDelimiter.WordWrap = false;
             // 
             // btnCheckDbConnction
             // 
-            this.btnCheckDbConnction.Location = new System.Drawing.Point(38, 74);
+            resources.ApplyResources(this.btnCheckDbConnction, "btnCheckDbConnction");
             this.btnCheckDbConnction.Name = "btnCheckDbConnction";
-            this.btnCheckDbConnction.Size = new System.Drawing.Size(260, 23);
-            this.btnCheckDbConnction.TabIndex = 16;
-            this.btnCheckDbConnction.Text = "Check Database connection";
             this.btnCheckDbConnction.UseVisualStyleBackColor = true;
             this.btnCheckDbConnction.Click += new System.EventHandler(this.btnCheckDbConnction_Click);
             // 
             // labelCultures
             // 
-            this.labelCultures.AutoSize = true;
-            this.labelCultures.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            resources.ApplyResources(this.labelCultures, "labelCultures");
             this.labelCultures.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelCultures.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelCultures.Location = new System.Drawing.Point(35, 160);
             this.labelCultures.Name = "labelCultures";
-            this.labelCultures.Size = new System.Drawing.Size(66, 15);
-            this.labelCultures.TabIndex = 25;
-            this.labelCultures.Text = "Language:";
             // 
             // listBoxCultures
             // 
             this.listBoxCultures.DisplayMember = "NativeName";
             this.listBoxCultures.FormattingEnabled = true;
-            this.listBoxCultures.Location = new System.Drawing.Point(38, 178);
+            resources.ApplyResources(this.listBoxCultures, "listBoxCultures");
             this.listBoxCultures.Name = "listBoxCultures";
-            this.listBoxCultures.Size = new System.Drawing.Size(260, 95);
-            this.listBoxCultures.TabIndex = 26;
             // 
             // frmSettings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(363, 318);
             this.Controls.Add(this.listBoxCultures);
             this.Controls.Add(this.labelCultures);
             this.Controls.Add(this.btnCheckDbConnction);
@@ -141,9 +109,7 @@ namespace PfsenseVoucherMgr
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.tbDbConnectionString);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmSettings";
-            this.Text = "Settings";
             this.Load += new System.EventHandler(this.frmSettings_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

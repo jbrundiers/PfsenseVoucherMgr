@@ -17,10 +17,10 @@
 //	No claim of suitability, guarantee, or any warranty whatsoever is
 //	provided. The software is provided "as-is".
 //	
+//  Multi-Language preparation is done with "StudioMulti-Language for Visual Studio"
+//  https://jollans.com/tiki/tiki-index.php?page=MultiLangVsNet
 //
 //------------------------------------------------------------------------------------------------
-
-
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -52,10 +52,6 @@ namespace PfsenseVoucherMgr
 
         private CultureInfo CurrentCulture;
 
-
-
-
-
         //----------------------------------------------
         //Public Methods
         //----------------------------------------------
@@ -64,9 +60,6 @@ namespace PfsenseVoucherMgr
         {
             CurrentCulture = Thread.CurrentThread.CurrentUICulture;    // Set the default
         }
-
-
-
 
         public void LoadAndActivate()
         {

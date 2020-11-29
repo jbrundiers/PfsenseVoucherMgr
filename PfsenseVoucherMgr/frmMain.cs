@@ -1,4 +1,26 @@
-﻿using ReadWriteCsv;
+﻿//------------------------------------------------------------------------------------------------
+//
+//	PfsenseVoucherMgr
+//
+//	Copyright (C) 2020 Soft-Toolware. All Rights Reserved
+//
+//	The software is a free software.
+//	It is distributed under the Code Project Open License (CPOL 1.02)
+//	agreement. The full text of the CPOL is given in:
+//	https://www.codeproject.com/info/cpol10.aspx
+//	
+//	The main points of CPOL 1.02 subject to the terms of the License are:
+//
+//	Source Code and Executable Files can be used in commercial applications;
+//	Source Code and Executable Files can be redistributed; and
+//	Source Code can be modified to create derivative works.
+//	No claim of suitability, guarantee, or any warranty whatsoever is
+//	provided. The software is provided "as-is".
+//	
+//
+//------------------------------------------------------------------------------------------------
+
+using ReadWriteCsv;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -160,7 +182,8 @@ namespace PfsenseVoucherMgr
             else
                 lblUnusedVouchers.ForeColor = default(Color);
 
-            lblUnusedVouchers.Text = "Unused vouchers: " + iUnusedVouchers;
+            lblUnusedVouchersNum.Text = "" + iUnusedVouchers;
+
         }
 
         private void frmMain_Refresh()
@@ -182,7 +205,8 @@ namespace PfsenseVoucherMgr
 
                 gUserId = vDb.GetUserId(gUserName);
 
-                StripStatLabelUser.Text = "Current user: " + gUserName + "(" + gUserId + ")";
+                //StripStatLabelUser.Text = StripStatLabelUser.Text + " " + gUserName + "(" + gUserId + ")";
+                StripStatLabelUserVal.Text = gUserName + "(" + gUserId + ")";
 
                 if (vDb.GetAdminStatus(Environment.UserName) > 0)               // only admin can import
                     importVoucherCodesToolStripMenuItem.Enabled = true;
@@ -206,5 +230,7 @@ namespace PfsenseVoucherMgr
             }
 
         }
+
+        
     }
 }

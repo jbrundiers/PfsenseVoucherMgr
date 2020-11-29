@@ -36,7 +36,7 @@ namespace PfsenseVoucherMgr.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PfsenseVoucherMgr.Properties.Resources", typeof(Resources).Assembly);
@@ -63,7 +63,7 @@ namespace PfsenseVoucherMgr.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Bubbles_70x400 {
+        public static System.Drawing.Bitmap Bubbles_70x400 {
             get {
                 object obj = ResourceManager.GetObject("Bubbles_70x400", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace PfsenseVoucherMgr.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap mynetwork_places_22589 {
+        public static System.Drawing.Bitmap mynetwork_places_22589 {
             get {
                 object obj = ResourceManager.GetObject("mynetwork_places_22589", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace PfsenseVoucherMgr.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The language change will take full effect the next time you start the program..
         /// </summary>
-        internal static string RES_ID_CultureChange {
+        public static string RES_ID_CultureChange {
             get {
                 return ResourceManager.GetString("RES_ID_CultureChange", resourceCulture);
             }

@@ -42,75 +42,48 @@ namespace PfsenseVoucherMgr
             // logoPictureBox
             // 
             this.logoPictureBox.Image = global::PfsenseVoucherMgr.Properties.Resources.mynetwork_places_22589;
-            this.logoPictureBox.InitialImage = ((System.Drawing.Image)(resources.GetObject("logoPictureBox.InitialImage")));
-            this.logoPictureBox.Location = new System.Drawing.Point(43, 30);
+            resources.ApplyResources(this.logoPictureBox, "logoPictureBox");
             this.logoPictureBox.Name = "logoPictureBox";
-            this.logoPictureBox.Size = new System.Drawing.Size(65, 62);
-            this.logoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.logoPictureBox.TabIndex = 8;
             this.logoPictureBox.TabStop = false;
             // 
             // labelCopyright
             // 
-            this.labelCopyright.AutoSize = true;
-            this.labelCopyright.Location = new System.Drawing.Point(114, 79);
+            resources.ApplyResources(this.labelCopyright, "labelCopyright");
             this.labelCopyright.Name = "labelCopyright";
-            this.labelCopyright.Size = new System.Drawing.Size(73, 13);
-            this.labelCopyright.TabIndex = 7;
-            this.labelCopyright.Text = "labelCopyright";
             // 
             // labelVersion
             // 
-            this.labelVersion.AutoSize = true;
-            this.labelVersion.Location = new System.Drawing.Point(114, 55);
+            resources.ApplyResources(this.labelVersion, "labelVersion");
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(64, 13);
-            this.labelVersion.TabIndex = 6;
-            this.labelVersion.Text = "labelVersion";
             // 
             // labelProductName
             // 
-            this.labelProductName.AutoSize = true;
-            this.labelProductName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelProductName.Location = new System.Drawing.Point(114, 30);
+            resources.ApplyResources(this.labelProductName, "labelProductName");
             this.labelProductName.Name = "labelProductName";
-            this.labelProductName.Size = new System.Drawing.Size(110, 13);
-            this.labelProductName.TabIndex = 5;
-            this.labelProductName.Text = "labelProductName";
             // 
             // buttonOk
             // 
             this.buttonOk.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.buttonOk.Location = new System.Drawing.Point(117, 202);
+            resources.ApplyResources(this.buttonOk, "buttonOk");
             this.buttonOk.Name = "buttonOk";
-            this.buttonOk.Size = new System.Drawing.Size(75, 23);
-            this.buttonOk.TabIndex = 10;
-            this.buttonOk.Text = "Ok";
             this.buttonOk.UseVisualStyleBackColor = true;
             // 
             // textBoxDescription
             // 
-            this.textBoxDescription.Enabled = false;
-            this.textBoxDescription.Location = new System.Drawing.Point(43, 123);
-            this.textBoxDescription.Multiline = true;
+            resources.ApplyResources(this.textBoxDescription, "textBoxDescription");
             this.textBoxDescription.Name = "textBoxDescription";
-            this.textBoxDescription.Size = new System.Drawing.Size(238, 57);
-            this.textBoxDescription.TabIndex = 9;
             // 
             // frmAbout
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(305, 279);
             this.Controls.Add(this.buttonOk);
             this.Controls.Add(this.textBoxDescription);
             this.Controls.Add(this.logoPictureBox);
             this.Controls.Add(this.labelCopyright);
             this.Controls.Add(this.labelVersion);
             this.Controls.Add(this.labelProductName);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAbout";
-            this.Text = "frmAbout";
             this.Load += new System.EventHandler(this.frmAbout_Load);
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).EndInit();
             this.ResumeLayout(false);
