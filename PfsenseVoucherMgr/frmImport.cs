@@ -1,10 +1,33 @@
-﻿using ReadWriteCsv;
+﻿//------------------------------------------------------------------------------------------------
+//
+//	PfsenseVoucherMgr
+//
+//	Copyright (C) 2020 Soft-Toolware. All Rights Reserved
+//
+//	The software is a free software.
+//	It is distributed under the Code Project Open License (CPOL 1.02)
+//	agreement. The full text of the CPOL is given in:
+//	https://www.codeproject.com/info/cpol10.aspx
+//	
+//	The main points of CPOL 1.02 subject to the terms of the License are:
+//
+//	Source Code and Executable Files can be used in commercial applications;
+//	Source Code and Executable Files can be redistributed; and
+//	Source Code can be modified to create derivative works.
+//	No claim of suitability, guarantee, or any warranty whatsoever is
+//	provided. The software is provided "as-is".
+//	
+//
+//------------------------------------------------------------------------------------------------
+
+using ReadWriteCsv;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,31 +53,22 @@ namespace PfsenseVoucherMgr
 
             vDb.Open("");
 
-            iUserID = vDb.GetUserID(Environment.UserName);
+            iUserID = vDb.GetUserId(Environment.UserName);
 
             tbRollNumber.Text = iRoll.ToString();
             tbUserId.Text = iUserID.ToString();
             tbUserId.Enabled = false;
-
-            //if (vDb.GetAdminStatus(Environment.UserName) == 0)      // only admin can import
-            //    btnImport.Enabled = false;
-
-
         }
 
         private void btnImport_Click(object sender, EventArgs e)
         {
-            // DateTime now = DateTime.Now;
-
             int iRowCount = 0;
 
             iRoll = Int32.Parse( tbRollNumber.Text );
 
-
-            if ( ! String.IsNullOrWhiteSpace( tbImportFilePath.Text ) )
+            //if ( ! String.IsNullOrWhiteSpace( tbImportFilePath.Text ) )
+            if ( File.Exists(tbImportFilePath.Text))
             {
-                
-
                 using (CsvFileReader reader = new CsvFileReader(tbImportFilePath.Text))
                 {
                     if (vDb.isOpen())                                           // a connection had been created
@@ -71,14 +85,10 @@ namespace PfsenseVoucherMgr
                                 vDb.InsertVoucher(s, iRoll, iUserID);           // To be done: find Roll  
                             }
                         }
-
-                        MessageBox.Show(iRowCount + " vouchers imported", "Voucher import", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(this, iRowCount + Properties.Resources.RES_ID_VImport, "Voucher import", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
-                
             }
-            
-
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -103,8 +113,6 @@ namespace PfsenseVoucherMgr
 
             if (opFileDialog.ShowDialog() == DialogResult.OK)
                 tbImportFilePath.Text = opFileDialog.FileName;
-
-
         }
 
         private void frmImport_FormClosed(object sender, FormClosedEventArgs e)

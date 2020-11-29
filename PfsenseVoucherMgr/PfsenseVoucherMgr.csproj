@@ -81,23 +81,56 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UICulture.cs" />
+    <EmbeddedResource Include="frmAbout.de-DE.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.en-US.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAbout.resx">
       <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImport.de-DE.resx">
+      <DependentUpon>frmImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImport.en-US.resx">
+      <DependentUpon>frmImport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmImport.resx">
       <DependentUpon>frmImport.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.de-DE.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.en-US.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.de-DE.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.en-US.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSettings.resx">
       <DependentUpon>frmSettings.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmShowVoucher.de-DE.resx">
+      <DependentUpon>frmShowVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowVoucher.en-US.resx">
+      <DependentUpon>frmShowVoucher.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmShowVoucher.resx">
       <DependentUpon>frmShowVoucher.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.de-DE.resx" />
+    <EmbeddedResource Include="Properties\Resources.en-US.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -124,6 +157,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mynetwork_places_22589.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PfsenseVoucherMgr_ml.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

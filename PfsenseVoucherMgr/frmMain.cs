@@ -1,4 +1,26 @@
-﻿using ReadWriteCsv;
+﻿//------------------------------------------------------------------------------------------------
+//
+//	PfsenseVoucherMgr
+//
+//	Copyright (C) 2020 Soft-Toolware. All Rights Reserved
+//
+//	The software is a free software.
+//	It is distributed under the Code Project Open License (CPOL 1.02)
+//	agreement. The full text of the CPOL is given in:
+//	https://www.codeproject.com/info/cpol10.aspx
+//	
+//	The main points of CPOL 1.02 subject to the terms of the License are:
+//
+//	Source Code and Executable Files can be used in commercial applications;
+//	Source Code and Executable Files can be redistributed; and
+//	Source Code can be modified to create derivative works.
+//	No claim of suitability, guarantee, or any warranty whatsoever is
+//	provided. The software is provided "as-is".
+//	
+//
+//------------------------------------------------------------------------------------------------
+
+using ReadWriteCsv;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -98,11 +120,11 @@ namespace PfsenseVoucherMgr
 
             if (String.IsNullOrWhiteSpace(tbSpendToUser.Text) || tbSpendToUser.Text.Length < 10)
             {
-                MessageBox.Show("Please enter min. 10 characters !", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(this, Properties.Resources.RES_ID_MinChar, "", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else if (vDb.CheckForSQLInjection(tbSpendToUser.Text) )
             {
-                MessageBox.Show("Text contains not allowed strings !","",MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(this, Properties.Resources.RES_ID_SqlWords, "", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
@@ -113,10 +135,7 @@ namespace PfsenseVoucherMgr
                 // Mark this as used
                 vDb.UpdateVoucher(iVoucherId, gUserId, tbSpendToUser.Text);
 
-
-
                 //MessageBox.Show("Voucher Code for " + tbSpendToUser.Text + "\n" + sVoucherCode + "\n" + "Requested by: " + gUserName );
-
 
                 // Instantiate form frmShowVoucher
                 frmShowVoucher dlg = new frmShowVoucher();
@@ -130,10 +149,7 @@ namespace PfsenseVoucherMgr
 
 
             }
-
             UpdateUnusedVoucherHint();
-
-
         }
 
         private void tbSpendToUser_TextChanged(object sender, EventArgs e)
@@ -160,7 +176,8 @@ namespace PfsenseVoucherMgr
             else
                 lblUnusedVouchers.ForeColor = default(Color);
 
-            lblUnusedVouchers.Text = "Unused vouchers: " + iUnusedVouchers;
+            lblUnusedVouchersNum.Text = "" + iUnusedVouchers;
+
         }
 
         private void frmMain_Refresh()
@@ -182,7 +199,8 @@ namespace PfsenseVoucherMgr
 
                 gUserId = vDb.GetUserId(gUserName);
 
-                StripStatLabelUser.Text = "Current user: " + gUserName + "(" + gUserId + ")";
+                //StripStatLabelUser.Text = StripStatLabelUser.Text + " " + gUserName + "(" + gUserId + ")";
+                StripStatLabelUserVal.Text = gUserName + "(" + gUserId + ")";
 
                 if (vDb.GetAdminStatus(Environment.UserName) > 0)               // only admin can import
                     importVoucherCodesToolStripMenuItem.Enabled = true;
@@ -202,9 +220,7 @@ namespace PfsenseVoucherMgr
                 btnRequestVoucher.Enabled = false;                              // disable some functions
                 tbSpendToUser.Enabled = false;
                 importVoucherCodesToolStripMenuItem.Enabled = false;
-
             }
-
         }
     }
 }
