@@ -83,11 +83,9 @@ namespace PfsenseVoucherMgr
                                 vDb.InsertVoucher(s, iRoll, iUserID);           // To be done: find Roll  
                             }
                         }
-
                         MessageBox.Show(iRowCount + " vouchers imported", "Voucher import", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
-                
             }
         }
 

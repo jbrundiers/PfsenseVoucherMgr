@@ -132,4 +132,7 @@
   <data name="lblToUser.Text" xml:space="preserve">
     <value>Voucher Code für :</value>
   </data>
+  <data name="btnPrintPreview.Text" xml:space="preserve">
+    <value>Druckvorschau</value>
+  </data>
 </root>

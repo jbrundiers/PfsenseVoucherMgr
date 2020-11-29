@@ -36,6 +36,8 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.btnPrintPreview = new System.Windows.Forms.Button();
             this.printDocPreviewDialog = new System.Windows.Forms.PrintPreviewDialog();
+            this.lblToUserValue = new System.Windows.Forms.Label();
+            this.lblFromUserValue = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblCode
@@ -79,10 +81,22 @@
             resources.ApplyResources(this.printDocPreviewDialog, "printDocPreviewDialog");
             this.printDocPreviewDialog.Name = "printDocPreviewDialog";
             // 
+            // lblToUserValue
+            // 
+            resources.ApplyResources(this.lblToUserValue, "lblToUserValue");
+            this.lblToUserValue.Name = "lblToUserValue";
+            // 
+            // lblFromUserValue
+            // 
+            resources.ApplyResources(this.lblFromUserValue, "lblFromUserValue");
+            this.lblFromUserValue.Name = "lblFromUserValue";
+            // 
             // frmShowVoucher
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lblFromUserValue);
+            this.Controls.Add(this.lblToUserValue);
             this.Controls.Add(this.btnPrintPreview);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnPrint);
@@ -104,5 +118,7 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnPrintPreview;
         private System.Windows.Forms.PrintPreviewDialog printDocPreviewDialog;
+        private System.Windows.Forms.Label lblToUserValue;
+        private System.Windows.Forms.Label lblFromUserValue;
     }
 }
