@@ -27,6 +27,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -65,7 +66,8 @@ namespace PfsenseVoucherMgr
 
             iRoll = Int32.Parse( tbRollNumber.Text );
 
-            if ( ! String.IsNullOrWhiteSpace( tbImportFilePath.Text ) )
+            //if ( ! String.IsNullOrWhiteSpace( tbImportFilePath.Text ) )
+            if ( File.Exists(tbImportFilePath.Text))
             {
                 using (CsvFileReader reader = new CsvFileReader(tbImportFilePath.Text))
                 {
@@ -83,7 +85,7 @@ namespace PfsenseVoucherMgr
                                 vDb.InsertVoucher(s, iRoll, iUserID);           // To be done: find Roll  
                             }
                         }
-                        MessageBox.Show(iRowCount + " vouchers imported", "Voucher import", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(this, iRowCount + Properties.Resources.RES_ID_VImport, "Voucher import", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
             }

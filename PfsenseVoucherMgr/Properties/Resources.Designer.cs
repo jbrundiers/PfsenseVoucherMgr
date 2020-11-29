@@ -81,6 +81,15 @@ namespace PfsenseVoucherMgr.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Connection test successful..
+        /// </summary>
+        public static string RES_ID_CheckDb {
+            get {
+                return ResourceManager.GetString("RES_ID_CheckDb", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Voucher code for:.
         /// </summary>
         public static string RES_ID_CodeFor {
@@ -104,6 +113,33 @@ namespace PfsenseVoucherMgr.Properties {
         public static string RES_ID_CultureChange {
             get {
                 return ResourceManager.GetString("RES_ID_CultureChange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter min. 10 characters !.
+        /// </summary>
+        public static string RES_ID_MinChar {
+            get {
+                return ResourceManager.GetString("RES_ID_MinChar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text contains not allowed strings !.
+        /// </summary>
+        public static string RES_ID_SqlWords {
+            get {
+                return ResourceManager.GetString("RES_ID_SqlWords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to  vouchers imported.
+        /// </summary>
+        public static string RES_ID_VImport {
+            get {
+                return ResourceManager.GetString("RES_ID_VImport", resourceCulture);
             }
         }
     }

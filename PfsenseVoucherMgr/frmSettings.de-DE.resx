@@ -123,4 +123,16 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Einstellungen</value>
   </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="btnCheckDbConnction.Text" xml:space="preserve">
+    <value>Check Datenbank Verbindung</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Datenbank connect string:</value>
+  </data>
+  <data name="labelCultures.Text" xml:space="preserve">
+    <value>Sprache:</value>
+  </data>
 </root>

@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="RES_ID_CheckDb" xml:space="preserve">
+    <value>Connection test successful.</value>
+  </data>
   <data name="RES_ID_CodeFor" xml:space="preserve">
     <value>Voucher code for:</value>
   </data>
@@ -125,5 +128,14 @@
   </data>
   <data name="RES_ID_CultureChange" xml:space="preserve">
     <value>The language change will take full effect the next time you start the program.</value>
+  </data>
+  <data name="RES_ID_MinChar" xml:space="preserve">
+    <value>Please enter min. 10 characters !</value>
+  </data>
+  <data name="RES_ID_SqlWords" xml:space="preserve">
+    <value>Text contains not allowed strings !</value>
+  </data>
+  <data name="RES_ID_VImport" xml:space="preserve">
+    <value> vouchers imported</value>
   </data>
 </root>

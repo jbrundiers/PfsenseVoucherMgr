@@ -120,4 +120,16 @@
   <data name="btnExit.Text" xml:space="preserve">
     <value>Beenden</value>
   </data>
+  <data name="btnImport.Text" xml:space="preserve">
+    <value>Starte Import</value>
+  </data>
+  <data name="btnSelectFile.Text" xml:space="preserve">
+    <value>Datei auswählen</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Roll Nummer:</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>CSV Datei:</value>
+  </data>
 </root>

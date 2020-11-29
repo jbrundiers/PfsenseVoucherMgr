@@ -106,7 +106,8 @@ namespace PfsenseVoucherMgr
 
             if ( vDb.isOpen() )
             {
-                MessageBox.Show("Connection test successful.", "Check Database Connection", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //MessageBox.Show("Connection test successful.", "Check Database Connection", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(Properties.Resources.RES_ID_CheckDb, "Check Database Connection", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 vDb.Close();
             }
         }
