@@ -44,7 +44,7 @@ namespace PfsenseVoucherMgr
 
             this.Text = String.Format("About {0}", AssemblyTitle);
             this.labelProductName.Text = AssemblyProduct;
-            this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
+            this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion); 
             this.labelCopyright.Text = AssemblyCopyright;
 
             this.textBoxDescription.Text = AssemblyDescription;
@@ -73,8 +73,12 @@ namespace PfsenseVoucherMgr
         {
             get
             {
-                return Assembly.GetExecutingAssembly().GetName().Version.ToString();
+                //return Assembly.GetExecutingAssembly().GetName().Version.ToString();
+                return "1.2.0.0";
+
             }
+
+
         }
 
         public string AssemblyDescription

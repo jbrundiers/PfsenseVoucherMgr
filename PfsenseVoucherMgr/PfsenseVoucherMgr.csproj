@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>mynetwork_places_22589.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -159,6 +162,7 @@
     <None Include="Resources\mynetwork_places_22589.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="mynetwork_places_22589.ico" />
     <Content Include="PfsenseVoucherMgr_ml.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

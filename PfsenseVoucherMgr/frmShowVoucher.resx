@@ -126,7 +126,7 @@
     <value>Microsoft Sans Serif, 12.25pt, style=Bold</value>
   </data>
   <data name="lblCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 68</value>
+    <value>61, 70</value>
   </data>
   <data name="lblCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>127, 20</value>
@@ -147,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblCode.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="lblToUser.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -174,7 +174,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblToUser.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="lblFromUser.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -201,13 +201,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblFromUser.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="btnPrint.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 162</value>
+    <value>15, 169</value>
   </data>
   <data name="btnPrint.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>105, 23</value>
   </data>
   <data name="btnPrint.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -225,10 +225,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnPrint.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 162</value>
+    <value>166, 198</value>
   </data>
   <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -249,13 +249,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="btnPrintPreview.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 162</value>
+    <value>15, 198</value>
   </data>
   <data name="btnPrintPreview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 23</value>
+    <value>105, 23</value>
   </data>
   <data name="btnPrintPreview.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -273,7 +273,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnPrintPreview.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <metadata name="printDocPreviewDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -501,7 +501,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblToUserValue.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="lblFromUserValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -531,6 +531,30 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblFromUserValue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnClipboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 169</value>
+  </data>
+  <data name="btnClipboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 23</value>
+  </data>
+  <data name="btnClipboard.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnClipboard.Text" xml:space="preserve">
+    <value>Copy to Clipboard</value>
+  </data>
+  <data name="&gt;&gt;btnClipboard.Name" xml:space="preserve">
+    <value>btnClipboard</value>
+  </data>
+  <data name="&gt;&gt;btnClipboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClipboard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnClipboard.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -540,7 +564,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>338, 216</value>
+    <value>266, 240</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

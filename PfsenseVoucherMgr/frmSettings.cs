@@ -31,6 +31,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
+using System.Configuration;
 
 namespace PfsenseVoucherMgr
 {
@@ -92,10 +93,14 @@ namespace PfsenseVoucherMgr
                 }
             }
 
+            // C:\Users\username\AppData\Local\SoftToolware\PfsenseVoucherMgr.vshost._Url_rmiij5255sdily03va1kwbhuahjkcpxv\1.0.0.0
             Properties.Settings.Default.Save();
 
-            this.Close();
+            // var appSettings = ConfigurationManager.AppSettings;
 
+
+
+            this.Close();
         }
 
         private void btnCheckDbConnction_Click(object sender, EventArgs e)

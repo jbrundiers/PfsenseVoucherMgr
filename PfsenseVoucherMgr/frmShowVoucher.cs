@@ -80,8 +80,8 @@ namespace PfsenseVoucherMgr
                                                                 
             // Build a new document
             
-            Image newImage = Properties.Resources.Bubbles_70x400;                           // get Logo-Image from Ressources
-            e.Graphics.DrawImage( newImage, 25, 25, newImage.Width, newImage.Height);       // insert Logo at position 
+            Image LogoImage = Properties.Resources.Bubbles_70x400;                           // get Logo-Image from Ressources
+            e.Graphics.DrawImage( LogoImage, 25, 25, LogoImage.Width, LogoImage.Height);       // insert Logo at position 
 
             e.Graphics.DrawString( Properties.Resources.RES_ID_CodeFor ,        // insert a Text at position    
                                    new Font("Arial",12, FontStyle.Regular), 
@@ -117,7 +117,23 @@ namespace PfsenseVoucherMgr
 
         }
 
-        
+        private void btnClipboard_Click(object sender, EventArgs e)
+        {
+            Graphics myGraphics = this.CreateGraphics();
+            Size s = this.Size;
+
+            Image memoryImage = new Bitmap(s.Width, s.Height, myGraphics);              // Create blank picture with given size
+
+            Graphics memoryGraphics = Graphics.FromImage(memoryImage);                  // copy the picture to memoryGraphics
+
+            memoryGraphics.CopyFromScreen(this.Location.X, this.Location.Y, 0, 0, s);   // make screencapture of the dialog window
+           
+            Clipboard.SetImage(memoryImage);                                            // copy picture to clipboard
+
+            memoryGraphics.Dispose();
+        }
+
+
 
 
         //Bitmap memoryImage;

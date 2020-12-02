@@ -135,4 +135,7 @@
   <data name="btnPrintPreview.Text" xml:space="preserve">
     <value>Druckvorschau</value>
   </data>
+  <data name="btnClipboard.Text" xml:space="preserve">
+    <value>Zwischenablage</value>
+  </data>
 </root>

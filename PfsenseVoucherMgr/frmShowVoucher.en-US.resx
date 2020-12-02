@@ -138,4 +138,7 @@
   <data name="lblToUser.Text" xml:space="preserve">
     <value>Voucher code for :</value>
   </data>
+  <data name="btnClipboard.Text" xml:space="preserve">
+    <value>Copy to clipboard</value>
+  </data>
 </root>

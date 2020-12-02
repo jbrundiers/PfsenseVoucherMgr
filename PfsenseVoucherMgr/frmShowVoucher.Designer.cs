@@ -38,6 +38,7 @@
             this.printDocPreviewDialog = new System.Windows.Forms.PrintPreviewDialog();
             this.lblToUserValue = new System.Windows.Forms.Label();
             this.lblFromUserValue = new System.Windows.Forms.Label();
+            this.btnClipboard = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblCode
@@ -91,10 +92,18 @@
             resources.ApplyResources(this.lblFromUserValue, "lblFromUserValue");
             this.lblFromUserValue.Name = "lblFromUserValue";
             // 
+            // btnClipboard
+            // 
+            resources.ApplyResources(this.btnClipboard, "btnClipboard");
+            this.btnClipboard.Name = "btnClipboard";
+            this.btnClipboard.UseVisualStyleBackColor = true;
+            this.btnClipboard.Click += new System.EventHandler(this.btnClipboard_Click);
+            // 
             // frmShowVoucher
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnClipboard);
             this.Controls.Add(this.lblFromUserValue);
             this.Controls.Add(this.lblToUserValue);
             this.Controls.Add(this.btnPrintPreview);
@@ -120,5 +129,6 @@
         private System.Windows.Forms.PrintPreviewDialog printDocPreviewDialog;
         private System.Windows.Forms.Label lblToUserValue;
         private System.Windows.Forms.Label lblFromUserValue;
+        private System.Windows.Forms.Button btnClipboard;
     }
 }
