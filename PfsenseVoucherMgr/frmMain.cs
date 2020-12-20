@@ -192,17 +192,21 @@ namespace PfsenseVoucherMgr
                 StripStatLabelDbStatus.Text = "Database: opened";
                 StripStatLabelDbStatus.ForeColor = Color.Green;
 
-                if (!vDb.FindUser(gUserName))                                   // if user does not exist in database
+                if (vDb.CountUser() == 0 )                          // if no user exists in database
                 {
-                    vDb.InsertUser(gUserName);                                  // create a user 
+                    vDb.InsertUser(gUserName, 1);                   // create admin user 
+                } 
+                else if (!vDb.FindUser(gUserName))                  // if user does not exist in database
+                {
+                    vDb.InsertUser(gUserName);                      // create a user 
                 }
 
                 gUserId = vDb.GetUserId(gUserName);
 
-                //StripStatLabelUser.Text = StripStatLabelUser.Text + " " + gUserName + "(" + gUserId + ")";
-                StripStatLabelUserVal.Text = gUserName + "(" + gUserId + ")";
+                //StripStatLabelUserVal.Text = gUserName + "(" + gUserId + ")";
+                StripStatLabelUserVal.Text = gUserName ;
 
-                if (vDb.GetAdminStatus(Environment.UserName) > 0)               // only admin can import
+                if (vDb.GetAdminStatus(gUserName) > 0)               // only admin can import
                     importVoucherCodesToolStripMenuItem.Enabled = true;
                 else
                     importVoucherCodesToolStripMenuItem.Enabled = false;

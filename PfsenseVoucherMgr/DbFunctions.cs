@@ -123,6 +123,34 @@ namespace PfsenseVoucherMgr
         }
 
         /// <summary>
+        /// Counts the Users in "Users" table
+        /// </summary>
+        /// <param></param>
+        /// <returns>count</returns>
+        public int CountUser()
+        {
+            string sql;
+            SqlCommand command;
+            int iAffectedRows = 0;
+
+            sql = "Select Count (*) from Users";
+            command = new SqlCommand(sql, gSqlConn);
+
+            try
+            {
+                iAffectedRows = (int)command.ExecuteScalar();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Database count users", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            command.Dispose();
+
+            return iAffectedRows;
+        }
+
+        /// <summary>
         /// Get the UserId for a username
         /// </summary>
         /// <param name="username"></param>
